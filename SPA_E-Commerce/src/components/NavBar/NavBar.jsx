@@ -15,13 +15,16 @@ export default function NavBar() {
 
       <ul>
         <li>Shop<hr/></li>
-        <li>Men</li>
-        <li>Women</li>
+        <li>Compression</li>
+        <li>Oversized</li>
+        <li>Tank top</li>
+        <li>Shorts</li>
+        <li>Pants</li>
       </ul>
 
       <ContainerNavLoginCart>
         <button>Login</button>
-        <img src={cart_icon} alt="" />
+        <img src={cart_icon} alt="" width={25} />
       </ContainerNavLoginCart>
     </ContainerNavBar>
   );
