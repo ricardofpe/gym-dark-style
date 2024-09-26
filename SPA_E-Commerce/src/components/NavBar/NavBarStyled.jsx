@@ -34,7 +34,7 @@ hr{
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background-color: #ff4141;
+    background-color: #4B0082;
 }
 `
 
@@ -49,7 +49,7 @@ export const ContainerNavLoginCart = styled.div`
 
 display: flex;
 align-items: center;
-gap: 20px;
+gap: 45px;
 
 button{
     width: 110px;
@@ -68,7 +68,20 @@ button{
 }
 }
 
+`
 
+export const NavCartCount = styled.div`
 
+width: 22px;
+height: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -35px;
+margin-left: -55px;
+border-radius: 11px;
+font-size: 14px;
+background-color: #4B0082;
+color: #fff;
 
 `

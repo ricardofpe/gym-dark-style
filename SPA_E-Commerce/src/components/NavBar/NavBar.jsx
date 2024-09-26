@@ -4,9 +4,14 @@ import {
   ContainerLogo,
   ContainerNavBar,
   ContainerNavLoginCart,
+  NavCartCount,
 } from "./NavBarStyled";
+import { useState } from "react";
 
 export default function NavBar() {
+
+  const [menu, setMenu] = useState("shop")
+   
   return (
     <ContainerNavBar>
       <ContainerLogo>
@@ -14,17 +19,18 @@ export default function NavBar() {
       </ContainerLogo>
 
       <ul>
-        <li>Shop<hr/></li>
-        <li>Compression</li>
-        <li>Oversized</li>
-        <li>Tank top</li>
-        <li>Shorts</li>
-        <li>Pants</li>
+        <li onClick={() => {setMenu("shop")}}>Shop{menu==="shop" ? <hr/> : <> </> }</li>
+        <li onClick={() => {setMenu("compression")}}>Compression{menu==="compression" ? <hr/> : <> </> }</li>
+        <li onClick={() => {setMenu("oversized")}}>Oversized{menu==="oversized" ? <hr/> : <> </> }</li>
+        <li onClick={() => {setMenu("tankTop")}}>Tank top{menu==="tankTop" ? <hr/> : <> </> }</li>
+        <li onClick={() => {setMenu("shorts")}}>Shorts{menu==="shorts" ? <hr/> : <> </> }</li>
+        <li onClick={() => {setMenu("pants")}}>Pants{menu==="pants" ? <hr/> : <> </> }</li>
       </ul>
 
       <ContainerNavLoginCart>
         <button>Login</button>
-        <img src={cart_icon} alt="" width={25} />
+        <img src={cart_icon} alt="" width={28} />
+        <NavCartCount>0</NavCartCount>
       </ContainerNavLoginCart>
     </ContainerNavBar>
   );
