@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../components/Hero.jsx/Hero";
+import Hero from "../../components/Hero/Hero";
 
 export default function Shop() {
   return (
