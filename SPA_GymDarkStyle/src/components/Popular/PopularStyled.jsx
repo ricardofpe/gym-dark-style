@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 10px;
-height: 90vh;
+height: 80vh;
 
 h1{
     color:#171717;
