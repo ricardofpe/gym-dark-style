@@ -6,16 +6,16 @@ import {
   ContainerPrices,
 } from "./ItemStyled";
 
-export default function Item() {
+export default function Item(props) {
   return (
     <ContainerItem>
       <img src={props.image} alt="" />
       <p>{props.name}</p>
 
       <ContainerPrices>
-        <ContainerItemPriceNew>{props.new_price}</ContainerItemPriceNew>
+        <ContainerItemPriceNew>${props.new_price}</ContainerItemPriceNew>
 
-        <ContainerOldPrice>{props.old_price}</ContainerOldPrice>
+        <ContainerOldPrice>${props.old_price}</ContainerOldPrice>
       </ContainerPrices>
     </ContainerItem>
   );

@@ -2,33 +2,45 @@ import p1_img from './product_1.png'
 import p2_img from './product_2.png'
 import p3_img from './product_3.png'
 import p4_img from './product_4.png'
-
+import p5_img from './product_5.png'
+import p6_img from './product_6.png'
+import p7_img from './product_7.png'
 let data_product = [
   {
-    id:1,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p1_img,
-    new_price:50.00,
-    old_price:80.50,
+    "id": 1,
+    "name": "Oversized Pocket Tee - Charcoal",
+    "image": p1_img,
+    "new_price": 49.99,
+    "old_price": 69.99
   },
-  {id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p2_img,
-    new_price:85.00,
-    old_price:120.50,
+  {
+    "id": 2,
+    "name": "Graphic Print Oversized Tee - Charcoal",
+    "image": p2_img,
+    "new_price": 54.99,
+    "old_price": 74.99
   },
-  {id:3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p3_img,
-    new_price:60.00,
-    old_price:100.50,
+  {
+    "id": 3,
+    "name": "Striped Graphic Oversized Tee - Black",
+    "image": p3_img,
+    "new_price": 59.99,
+    "old_price": 79.99
   },
-  {id:4,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p4_img,
-    new_price:100.00,
-    old_price:150.00,
+  {
+    "id": 4,
+    "name": "Abstract Graphic Oversized Tee - Black",
+    "image": p4_img,
+    "new_price": 59.99,
+    "old_price": 79.99
   },
-];
+   {
+    "id": 5,
+    "name": "Oversized Skull Graphic Tee - Charcoal",
+    "image": p5_img,
+    "new_price": 59.99,
+    "old_price": 79.99
+  }
+]
 
 export default data_product;
