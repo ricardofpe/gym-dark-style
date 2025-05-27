@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerPopular = styled.div`
+export const ContainerNewCollections = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -28,10 +28,9 @@ img{
 `;
 
 
-export const PopularItem = styled.div`
+export const Collections = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 margin-top: 50px;
-display: flex;
 gap: 30px;
-width: 100%;
-flex-wrap:wrap;
 `

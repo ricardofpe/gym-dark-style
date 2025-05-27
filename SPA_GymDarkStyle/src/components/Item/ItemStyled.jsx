@@ -8,6 +8,12 @@ export const ContainerItem = styled.div`
   p {
     margin: 6px 0px;
   }
+
+  
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+  }
 `;
 
 export const ContainerPrices = styled.div`
@@ -27,8 +33,4 @@ export const ContainerOldPrice = styled.div`
   font-weight: 500;
   text-decoration: line-through;
 
-  &hover {
-    transform: scale(1.05);
-    transition: 0.6s;
-  }
 `;
