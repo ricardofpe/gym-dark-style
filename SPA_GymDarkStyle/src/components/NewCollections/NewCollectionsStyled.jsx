@@ -6,7 +6,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 10px;
-height: 80vh;
+margin-bottom: 100px;
 
 h1{
     color:#171717;
